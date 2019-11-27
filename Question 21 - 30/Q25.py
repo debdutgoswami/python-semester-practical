@@ -12,8 +12,8 @@ mat2 = np.matrix(np.array([
     [1,2,1]
 ]))
 
-mat3 = np.matmul(mat1,mat2)
-mat4 = mat1+mat2
+mat3 = np.transpose(mat1)
+mat4 = np.linalg.det(mat2)
 
 print(mat3)
 print(mat4)
